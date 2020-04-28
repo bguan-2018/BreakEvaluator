@@ -69,6 +69,24 @@ If you would rather just use the final hidden state representation call `embed`:
 * __*emotion_prediction.py*__: helper scripts that defines EmotionPredictor class.
 * __*models/*__: contains trained RNN models.
 
+
+NOTE:
+
+Please use the following versions of the listed API
+
+h5py==2.9.0
+Keras==1.1.0
+numpy==1.16.0
+pandas==0.24.1
+python-dateutil==2.8.0
+pytz==2018.9
+PyYAML==3.13 //This doesn't really matter
+scipy==1.2.1
+six==1.12.0
+Theano==1.0.4
+
+Also you need to configure your keras.json file to use the "theanos" backend.
+
 ### Citing:
 
 If you use our models in a scientific publication, we would appreciate citations to the following paper:
